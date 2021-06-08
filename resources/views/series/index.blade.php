@@ -24,7 +24,7 @@ Séries
                 <i class="fas fa-external-link-alt"></i>
             </a>
             <form method="post" action="/series/{{ $serie->id }}"
-                  onsubmit="return confirm('Tem certeza que deseja remover a série{{ addslashes($serie->nome) }}?')">
+                  onsubmit="return confirm('Tem certeza que deseja remover a série {{ addslashes($serie->nome) }}?')">
                 @csrf
                 @method("DELETE")
                 <button class="btn btn-danger btn-sm">
