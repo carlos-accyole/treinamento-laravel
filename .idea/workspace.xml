@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bbedf759-3211-4f4c-8e00-1923df7bbd51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/temporadas/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/64bffe54-2f79-4c24-bd3b-f6cac63d9123.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/64bffe54-2f79-4c24-bd3b-f6cac63d9123.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Serie.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Serie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Episodio.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Episodio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Temporada.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Temporada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,12 +164,28 @@
       <workItem from="1621817917581" duration="6434000" />
       <workItem from="1621969456480" duration="4423000" />
       <workItem from="1622338526704" duration="7211000" />
-      <workItem from="1622386081414" duration="1995000" />
+      <workItem from="1622386081414" duration="6997000" />
+      <workItem from="1623118114836" duration="169000" />
+      <workItem from="1623118303867" duration="56000" />
+      <workItem from="1623118395036" duration="25000" />
+      <workItem from="1623118497415" duration="86000" />
+      <workItem from="1623119230289" duration="2546000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="187" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621822809377">
@@ -155,22 +196,22 @@
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="738" y="257" width="424" height="550" key="FileChooserDialogImpl/0.27.1920.997@0.27.1920.997" timestamp="1621822799599" />
-    <state width="1291" height="257" key="GridCell.Tab.0.bottom" timestamp="1621969507564">
+    <state width="1291" height="574" key="GridCell.Tab.0.bottom" timestamp="1622429800349">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state width="1291" height="257" key="GridCell.Tab.0.bottom/0.27.1920.997@0.27.1920.997" timestamp="1621969507564" />
-    <state width="1291" height="257" key="GridCell.Tab.0.center" timestamp="1621969507562">
+    <state width="1291" height="574" key="GridCell.Tab.0.bottom/0.27.1920.997@0.27.1920.997" timestamp="1622429800349" />
+    <state width="1291" height="574" key="GridCell.Tab.0.center" timestamp="1622429800347">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state width="1291" height="257" key="GridCell.Tab.0.center/0.27.1920.997@0.27.1920.997" timestamp="1621969507562" />
-    <state width="1291" height="257" key="GridCell.Tab.0.left" timestamp="1621969507561">
+    <state width="1291" height="574" key="GridCell.Tab.0.center/0.27.1920.997@0.27.1920.997" timestamp="1622429800347" />
+    <state width="1291" height="574" key="GridCell.Tab.0.left" timestamp="1622429800345">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state width="1291" height="257" key="GridCell.Tab.0.left/0.27.1920.997@0.27.1920.997" timestamp="1621969507561" />
-    <state width="1291" height="257" key="GridCell.Tab.0.right" timestamp="1621969507563">
+    <state width="1291" height="574" key="GridCell.Tab.0.left/0.27.1920.997@0.27.1920.997" timestamp="1622429800345" />
+    <state width="1291" height="574" key="GridCell.Tab.0.right" timestamp="1622429800349">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state width="1291" height="257" key="GridCell.Tab.0.right/0.27.1920.997@0.27.1920.997" timestamp="1621969507563" />
+    <state width="1291" height="574" key="GridCell.Tab.0.right/0.27.1920.997@0.27.1920.997" timestamp="1622429800349" />
     <state x="542" y="245" width="825" height="568" key="NewPhpClassDialog" timestamp="1621820715022">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
@@ -183,13 +224,14 @@
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="651" y="264" width="618" height="522" key="find.popup/0.27.1920.997@0.27.1920.997" timestamp="1622345627664" />
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1622347075974">
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1622388435735">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1622347075974" />
-    <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1622387446745">
-      <screen x="0" y="27" width="1920" height="997" />
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1622388435735" />
+    <state x="2833" y="446" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623122018677">
+      <screen x="1920" y="0" width="2560" height="1080" />
     </state>
+    <state x="2833" y="446" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.100.1920.924/1920.0.2560.1080@1920.0.2560.1080" timestamp="1623122018677" />
     <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.997@0.27.1920.997" timestamp="1622387446745" />
   </component>
 </project>
