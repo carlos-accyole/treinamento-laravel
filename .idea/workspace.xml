@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbedf759-3211-4f4c-8e00-1923df7bbd51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/entrar/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/erros.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SeriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/series/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/series/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,7 +172,8 @@
       <workItem from="1623240991432" duration="9106000" />
       <workItem from="1623282210639" duration="4332000" />
       <workItem from="1623334876948" duration="4806000" />
-      <workItem from="1623356012345" duration="306000" />
+      <workItem from="1623356012345" duration="2115000" />
+      <workItem from="1623384779221" duration="1950000" />
     </task>
     <servers />
   </component>
@@ -201,6 +206,10 @@
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="748" y="299" width="414" height="467" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.27.1920.997@0.27.1920.997" timestamp="1623160487833" />
+    <state x="100" y="127" width="1720" height="797" key="DiffContextDialog" timestamp="1623358055606">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="100" y="127" width="1720" height="797" key="DiffContextDialog/0.27.1920.997@0.27.1920.997" timestamp="1623358055606" />
     <state x="738" y="257" width="424" height="550" key="FileChooserDialogImpl" timestamp="1621822799599">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
@@ -238,14 +247,14 @@
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="651" y="264" width="618" height="522" key="find.popup/0.27.1920.997@0.27.1920.997" timestamp="1622345627664" />
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1623284210681">
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1623357383059">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1623284210681" />
-    <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623356232500">
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1623357383059" />
+    <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623356530536">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="2833" y="446" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.100.1920.924/1920.0.2560.1080@1920.0.2560.1080" timestamp="1623122018677" />
-    <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.997@0.27.1920.997" timestamp="1623356232500" />
+    <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.27.1920.997@0.27.1920.997" timestamp="1623356530536" />
   </component>
 </project>

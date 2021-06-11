@@ -2,16 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use App\Episodio;
 use App\Http\Requests\SeriesFormRequest;
 use App\Serie;
 use App\Services\CriadorDeSerie;
 use App\Services\RemovedorDeSeries;
-use App\Temporada;
 use Illuminate\Http\Request;
 
 class SeriesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     public function index(Request $request) {
 
