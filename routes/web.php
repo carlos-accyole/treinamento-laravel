@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+use Illuminate\Support\Facades\Auth;
+
 Route::get('/series', 'SeriesController@index')->name('listar_series');
 Route::get('/series/criar', 'SeriesController@create')->name('form_criar_serie');
 Route::post('/series/criar', 'SeriesController@store');
@@ -26,3 +29,7 @@ Route::get('/entrar', 'EntrarController@index');
 Route::post('/entrar', 'EntrarController@entrar');
 Route::get('/registrar', 'RegistroController@create');
 Route::post('/registrar', 'RegistroController@store');
+Route::get('/sair', function () {
+    Auth::logout();
+    return redirect('/entrar');
+});
