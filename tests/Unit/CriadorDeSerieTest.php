@@ -4,10 +4,12 @@ namespace Tests\Unit;
 
 use App\Serie;
 use App\Services\CriadorDeSerie;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class CriadorDeSerieTest extends TestCase
 {
+    use RefreshDatabase;
     public function testCriarSerie()
     {
         $criadorDeSeries = new CriadorDeSerie();
