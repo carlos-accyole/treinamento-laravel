@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbedf759-3211-4f4c-8e00-1923df7bbd51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Unit/CriadorDeSerieTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/CriadorDeSerieTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/CriadorDeSerieTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CriadorDeSerieTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,14 +135,33 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Feature" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.RemovedorDeSerieTest">
+    <configuration name="RemovedorDeSerieTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\RemovedorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RemovedorDeSerieTest.testRemoverUmaSerie" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\RemovedorDeSerieTest" file="$PROJECT_DIR$/tests/Feature/RemovedorDeSerieTest.php" method="testRemoverUmaSerie" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.RemovedorDeSerieTest" />
+        <item itemvalue="PHPUnit.RemovedorDeSerieTest.testRemoverUmaSerie" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -173,7 +191,7 @@
       <workItem from="1623384779221" duration="4018000" />
       <workItem from="1623513645601" duration="3073000" />
       <workItem from="1623612598468" duration="4768000" />
-      <workItem from="1623697088606" duration="4321000" />
+      <workItem from="1623697088606" duration="10188000" />
     </task>
     <servers />
   </component>
@@ -193,6 +211,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="539" y="190" width="824" height="691" key="#CLI_Interpreters" timestamp="1623728479707">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="539" y="190" width="824" height="691" key="#CLI_Interpreters/0.27.1920.997@0.27.1920.997" timestamp="1623728479707" />
+    <state x="606" y="153" width="700" height="759" key="#PHP" timestamp="1623728483501">
+      <screen x="0" y="27" width="1920" height="997" />
+    </state>
+    <state x="606" y="153" width="700" height="759" key="#PHP/0.27.1920.997@0.27.1920.997" timestamp="1623728483501" />
     <state x="555" y="187" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621822809377">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
@@ -247,10 +273,10 @@
       <screen x="0" y="27" width="1920" height="997" />
     </state>
     <state x="651" y="264" width="618" height="522" key="find.popup/0.27.1920.997@0.27.1920.997" timestamp="1622345627664" />
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1623699879665">
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup" timestamp="1623730996944">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
-    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1623699879665" />
+    <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.997@0.27.1920.997" timestamp="1623730996944" />
     <state x="685" y="439" width="540" height="179" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1623699660718">
       <screen x="0" y="27" width="1920" height="997" />
     </state>
