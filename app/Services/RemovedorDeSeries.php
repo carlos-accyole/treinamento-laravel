@@ -14,8 +14,8 @@ class RemovedorDeSeries
             $serie = Serie::find($serieId);
             $nomeSerie = $serie->nome;
             $this->removerTemporadas($serie);
+            $serie->delete();
         });
-
         return $nomeSerie;
     }
 
